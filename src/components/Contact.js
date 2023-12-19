@@ -1,0 +1,92 @@
+import { makeStyles, Typography, Paper, Radio, TextField, Button} from "@material-ui/core";
+//import React from 'react';
+import React, { useState } from 'react'
+
+const Contact = ({title, id, dark}) => {
+    const classes = useStyles();
+    const [value] = useState("Say Hi");
+    
+    const handleChange = (e) => { }
+
+  return (
+    <div className={`${classes.section} ${dark && classes.sectiondark}`}>
+       <div className={ classes.sectioncontent} id={id}>
+        <Typography variant="h3">{title}</Typography>
+        <Paper className={classes.root}>
+        <div className={classes.titleandchoices}>
+        <Typography variant="h5">CONTACT ME</Typography>
+        <div className={classes.choices}>
+          <span>Say Hello</span>
+          <Radio
+          value="Say Hi"
+          checked={value ==="Say Hi"}
+          color="primary"
+          onChange={handleChange}
+          />
+        </div>
+        </div>
+        <form className={ classes.form } noValidate autoComplete="off">
+          <TextField label="Your name"/>
+          <TextField label="You ne-mail"/>
+          <TextField label="Write a message"/>
+        </form>
+        <Button variant="contanied">Submit</Button>
+        </Paper>
+      </div>
+    </div>
+  )
+}
+
+const useStyles = makeStyles((theme) => ({
+    section:{
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      judtifyContent: "flex-start",
+      alignItems: "center",
+
+    },
+    sectiondark: {
+        background: "#333",
+        color: "#fff",
+    },
+    root: {
+      marginTop: theme.spacing(4),
+      background: "#FF9CEE",
+      color: "#fff",
+      fontSize: "1.2rem",
+      maxWidth: "500px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      padding: theme.spacing(4),
+      "& button": {
+        backgroundColor: "#fff",
+        color: "tomato",
+        fontWeight: 900,
+        fontSize: "1.2rem",
+        marginTop: theme.spacing(4)
+      },
+      "& button:hover": {
+        backgroundColor: theme.palette.primary.main,
+        color: "#fff",
+      }
+    },
+    sectioncontent: {
+      maxWidth: "80vw",
+    },
+    titleandchices: {
+      "& h5": {
+        marginTop: theme.spacing(2),
+      }
+    },
+    form:{
+      display: "flex",
+      flexDirection: "column",
+      "& input": {
+        marginBottom: theme.spacing(1)
+      }
+    }
+  }))
+
+export default Contact
