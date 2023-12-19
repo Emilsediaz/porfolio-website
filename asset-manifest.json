@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/porfolio-website/static/css/main.3ad552fa.css",
+    "main.js": "/porfolio-website/static/js/main.1836ee53.js",
+    "static/js/988.eaf65e40.chunk.js": "/porfolio-website/static/js/988.eaf65e40.chunk.js",
+    "static/media/futbollxl.png": "/porfolio-website/static/media/futbollxl.3bb7215b91df0568c892.png",
+    "static/media/musicando.png": "/porfolio-website/static/media/musicando.cacf86d226b4bcd0353e.png",
+    "static/media/cv.pdf": "/porfolio-website/static/media/cv.46043190a5bb5e88cc05.pdf",
+    "static/media/Emilse.jpg": "/porfolio-website/static/media/Emilse.40a0f058a1a9fba51c9b.jpg",
+    "static/media/react.png": "/porfolio-website/static/media/react.75ae8ce3bc554be254a7.png",
+    "static/media/logo.png": "/porfolio-website/static/media/logo.44c75d22f73b22ee7756.png",
+    "static/media/React.jpg": "/porfolio-website/static/media/React.ef9e6da005cab98f1a4d.jpg",
+    "static/media/HTML.jpg": "/porfolio-website/static/media/HTML.2b2bb0376dffd479d150.jpg",
+    "index.html": "/porfolio-website/index.html",
+    "main.3ad552fa.css.map": "/porfolio-website/static/css/main.3ad552fa.css.map",
+    "main.1836ee53.js.map": "/porfolio-website/static/js/main.1836ee53.js.map",
+    "988.eaf65e40.chunk.js.map": "/porfolio-website/static/js/988.eaf65e40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ad552fa.css",
+    "static/js/main.1836ee53.js"
+  ]
+}
