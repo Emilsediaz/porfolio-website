@@ -1,13 +1,9 @@
-import { makeStyles, Typography, Paper, Radio, TextField, Button} from "@material-ui/core";
+import { makeStyles, Typography, Paper, TextField, Button} from "@material-ui/core";
 //import React from 'react';
-import React, { useState } from 'react'
+//import React, { useState } from 'react'
 
 const Contact = ({title, id, dark}) => {
     const classes = useStyles();
-    const [value] = useState("Say Hi");
-    
-    const handleChange = (e) => { }
-
   return (
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>
        <div className={ classes.sectioncontent} id={id}>
@@ -15,22 +11,14 @@ const Contact = ({title, id, dark}) => {
         <Paper className={classes.root}>
         <div className={classes.titleandchoices}>
         <Typography variant="h5">CONTACT ME</Typography>
-        <div className={classes.choices}>
-          <span>Say Hello</span>
-          <Radio
-          value="Say Hi"
-          checked={value ==="Say Hi"}
-          color="primary"
-          onChange={handleChange}
-          />
-        </div>
+        
         </div>
         <form className={ classes.form } noValidate autoComplete="off">
           <TextField label="Your name"/>
           <TextField label="You ne-mail"/>
           <TextField label="Write a message"/>
         </form>
-        <Button variant="contanied">Submit</Button>
+        <Button variantgit ="contanied">Submit</Button>
         </Paper>
       </div>
     </div>
@@ -67,8 +55,8 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "1.2rem",
         marginTop: theme.spacing(4)
       },
-      "& button:hover": {
-        backgroundColor: theme.palette.primary.main,
+     "& button:hover": {
+       backgroundColor: theme.palette.primary.main,
         color: "#fff",
       }
     },

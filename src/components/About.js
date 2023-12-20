@@ -22,7 +22,7 @@ const About = ({title, id, dark}) => {
           typeSpeed={100}
         /> 
         <TypeWriterEffect 
-          text="Desarrollador web full strack"
+          text="Desarrollador web full stack"
           textStyle={{ fontSize: "1.2rem", fontWeight:"500px" }}
           startDelay={2500}
           cursorColor="black"
