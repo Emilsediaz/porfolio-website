@@ -1,6 +1,7 @@
 import react from "./images/react.png";
 import futbollxl from "./images/futbollxl.png";
 import musicando from "./images/musicando.png";
+import Next from "./images/Next.JS14.png";
 
 
 
@@ -19,6 +20,11 @@ const mockData = [
         title:"musicando",
         image: musicando, 
         link: "https://github.com/Emilsediaz/recuperatorio.git", 
+        },
+        {
+        title:"Next.JS14",
+        image: Next, 
+        link: "https://github.com/Emilsediaz/Nextjs.14-Dashboard.git", 
         },
 ];
 

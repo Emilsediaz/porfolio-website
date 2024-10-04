@@ -5,6 +5,7 @@ import Javascript from "../images/JavascriptES6.jpg";
 import MYSQL from "../images/MYSQL.jpg";
 import react from "../images/React.jpg";
 import Sequelize from "../images/Sequelize.jpg";
+import next from "../images/next.jpg";
 import { Timeline, TimelineItem, TimelineOppositeContent, TimelineSeparator, TimelineConnector, TimelineContent  } from "@material-ui/lab";
 import { Typography, makeStyles, Paper } from '@material-ui/core';
 import StarRating from './StarRating';
@@ -51,7 +52,12 @@ const skills = [
     title: "Sequelize",
     stars: 4,
   },
-
+  {
+  year: "2024",
+  src: next,
+  title: "next",
+  stars: 4,
+}, 
 ];
 
   return (
