@@ -2,6 +2,7 @@ import react from "./images/react.png";
 import futbollxl from "./images/futbollxl.png";
 import musicando from "./images/musicando.png";
 import Next from "./images/Next.JS14.png";
+import Angular from "./images/Angular18.png";
 
 
 
@@ -26,6 +27,11 @@ const mockData = [
         image: Next, 
         link: "https://github.com/Emilsediaz/Nextjs.14-Dashboard.git", 
         },
+        {
+            title:"Angular18",
+            image: Angular, 
+            link: "https://github.com/Emilsediaz/angular18.git", 
+            },
 ];
 
 export default mockData;
