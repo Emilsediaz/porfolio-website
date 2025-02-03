@@ -10,13 +10,13 @@ const Contacto = ({title, id, dark}) => {
         <Typography variant="h3">{title}</Typography>
         <Paper className={classes.root}>
         <div className={classes.titleandchoices}>
-        <Typography variant="h5">CONTACT ME</Typography>
+        <Typography variant="h5">CONTACTA ME</Typography>
         
         </div>
         <form className={ classes.form } noValidate autoComplete="off">
-          <TextField label="Your name"/>
-          <TextField label="You ne-mail"/>
-          <TextField label="Write a message"/>
+          <TextField label="Tu nombre"/>
+          <TextField label="Tu email"/>
+          <TextField label="Escribe un mensaje"/>
         </form>
         <Button variantgit ="contanied">Submit</Button>
         </Paper>
