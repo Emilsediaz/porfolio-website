@@ -5,7 +5,7 @@ import TypeWriterEffect from "react-typewriter-effect"
 import pdf from "../images/CV PROGRAMADOR.pdf";
 
 
-const About = ({title, id, dark}) => {
+const Acerca = ({title, id, dark}) => {
   const classes = useStyles();
     return (
         <div className={`${classes.section} ${dark && classes.sectiondark}`} >
@@ -113,4 +113,4 @@ const useStyles = makeStyles((theme) => ({
   }))
 
 
-export default About
+export default Acerca

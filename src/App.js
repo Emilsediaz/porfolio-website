@@ -1,10 +1,10 @@
 import React from 'react';
 import {  MuiThemeProvider, makeStyles, createMuiTheme } from "@material-ui/core";
 import Navbar from "./components/Navbar.js";
-import About from "./components/About.js";
-import Skills from "./components/Skills.js";
-import Contact from "./components/Contact.js";
-import MyWork from "./components/MyWork.js";
+import Acerca from "./components/Acerca de mi.js";
+import Habilidades from "./components/Habilidades.js";
+import Contacto from "./components/Contacto.js";
+import MiTrabajo from "./components/MiTrabajo.js";
 import { purple } from '@material-ui/core/colors';
 
 
@@ -21,10 +21,10 @@ function App() {
     <MuiThemeProvider theme={theme}>
 <div className={classes.root}>
       <Navbar />
-      <About title="About Me" id="about" dark={true} />
-      <Skills title="My Coding Journey" id="skills" dark={false} />
-      <MyWork title="My Work" id="work" dark={true} />
-      <Contact title="You can contact me at..." id="contact" dark={false} />
+      <Acerca title="Acerca de mi" id="acerca" dark={true} />
+      <Habilidades title="Habilidades" id="habilidades" dark={false} />
+      <MiTrabajo title="Mi Trabajo" id="Trabajo" dark={true} />
+      <Contacto title="You can contact me at..." id="contacto" dark={false} />
     </div>
     </MuiThemeProvider>
 

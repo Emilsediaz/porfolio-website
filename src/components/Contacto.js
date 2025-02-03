@@ -2,7 +2,7 @@ import { makeStyles, Typography, Paper, TextField, Button} from "@material-ui/co
 //import React from 'react';
 //import React, { useState } from 'react'
 
-const Contact = ({title, id, dark}) => {
+const Contacto = ({title, id, dark}) => {
     const classes = useStyles();
   return (
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>
@@ -77,4 +77,4 @@ const useStyles = makeStyles((theme) => ({
     }
   }))
 
-export default Contact
+export default Contacto

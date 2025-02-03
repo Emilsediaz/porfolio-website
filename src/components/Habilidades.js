@@ -2,7 +2,7 @@ import { makeStyles, Typography } from "@material-ui/core";
 import React from 'react'
 import Technologies from './Technologies';
 
-const Skills = ({title, id, dark}) => {
+const Abilidades = ({title, id, dark}) => {
     const classes = useStyles();
   return (
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>
@@ -31,4 +31,4 @@ const useStyles = makeStyles((theme) => ({
   },
   }))
 
-export default Skills
+export default Abilidades

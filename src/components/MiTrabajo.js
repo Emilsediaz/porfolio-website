@@ -5,7 +5,7 @@ import Link from '@material-ui/core/Link'
 
 
 
-const MyWork = ({title, id, dark}) => {
+const MiTrabajo = ({title, id, dark}) => {
     const classes = useStyles();
   return (
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>
@@ -62,4 +62,4 @@ const useStyles = makeStyles((theme) => ({
       },
   }))
 
-export default MyWork
+export default MiTrabajo

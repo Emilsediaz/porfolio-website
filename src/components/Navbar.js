@@ -19,23 +19,23 @@ const Navbar = () => {
   
   const links= [
     {
-      id:"about",
-      text: "About me",
+      id:"acerca",
+      text: "Acerca de mi",
       icon: <InfoTwoToneIcon fontSize="large"/>
     },
     {
-      id:"skills",
-      text: "skills",
+      id:"habilidades",
+      text: "Habilidades",
       icon: <EmojiObjectsTwoToneIcon fontSize="large" className={classes.light}/>
     },
     {
-    id:"work",
-    text: "My Work",
+    id:"trabajo",
+    text: "Mi Trabajo",
     icon: <BuildTwoToneIcon fontSize="large"/>
   },
   {
-    id:"contact",
-    text: "You can contact me at...",
+    id:"contacto",
+    text: "Puedes ponerte en contacto conmigo en...",
     icon: <ContactMailTwoToneIcon fontSize="large"/>
   },
   ]
