@@ -23,7 +23,7 @@ function App() {
       <Navbar />
       <Acerca title="Acerca de mi" id="acerca" dark={true} />
       <Habilidades title="Habilidades" id="habilidades" dark={false} />
-      <MiTrabajo title="Mi Trabajo" id="Trabajo" dark={true} />
+      <MiTrabajo title="MiTrabajo" id="trabajo" dark={false} />
       <Contacto title="You can contact me at..." id="contacto" dark={false} />
     </div>
     </MuiThemeProvider>
