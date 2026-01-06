@@ -55,16 +55,10 @@ const useStyles = makeStyles((theme) => ({
       maxWidth: 345,
       minHeight: 275,
       margin: theme.spacing(3),
-      transition: "all 0.3s ease",
-      "&:hover": {
-        boxShadow: "0 0 0 4px #F6A6FF",
-        transform: "translateY(-5px)",
-      },
     },
-    caratula: {
-        height: 200,
-        backgroundSize: "contain",
-        backgroundPosition: "center",
+    caratula: { 
+        height: 0,
+        paddingTop: "56.25%", // 16:9
       },
   }))
 

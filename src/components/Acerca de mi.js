@@ -2,7 +2,7 @@ import { Button, CardMedia, Card, Typography, makeStyles, CardContent, CardActio
 import React from 'react';
 import Emilse from "../images/Emilse.jpg";
 import TypeWriterEffect from "react-typewriter-effect"
-import pdf from "../images/CV-EMILSE DIAZ-Programador.pdf";
+import pdf from "../images/CV PROGRAMADOR.pdf";
 
 
 const Acerca = ({title, id, dark}) => {
